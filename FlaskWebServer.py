@@ -14,5 +14,5 @@ def hello_world():
     return 'Hello World! //{0}'.format(node)
 
 if __name__ == '__main__':
-    app.run(port = int(appconfig['port']))
+    app.run(host='0.0.0.0', port=int(appconfig['port']))
 
