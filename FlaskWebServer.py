@@ -11,7 +11,7 @@ with open( os.path.join(os.path.dirname(__file__), 'config.json') ) as f:
 
 @app.route('/')
 def hello_world():
-    return 'Hello World! //{0}'.format(node)
+    return 'Hello World 2! //{0}'.format(node)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(appconfig['port']))
